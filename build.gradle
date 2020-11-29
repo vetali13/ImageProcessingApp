@@ -19,6 +19,14 @@ dependencies {
 	// https://mvnrepository.com/artifact/commons-io/commons-io
 	compile group: 'commons-io', name: 'commons-io', version: '2.8.0'
 	
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjrt
+	compile group: 'org.aspectj', name: 'aspectjrt', version: '1.9.6'
+	
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjweaver
+	runtime group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
+	
+	
+	
 }
 
 application {
